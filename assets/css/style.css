@@ -1,0 +1,123 @@
+html, body, header, nav, footer, section, div, span, h1, h2, h3, p, a, blockquote, cite, img, ol, ul, li, form, fieldset, label, legend, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: normal; }
+
+/*
+$nomVariable: rgba(0, 0, 0, 0);
+*/
+/*
+@keyframes nomAnimation
+{
+	0%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+*/
+/*
+$nomVariable: rgba(0, 0, 0, 0);
+*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+form {
+  border: 1px solid black;
+  padding: 25px 0 25px 40px;
+  width: 500px; }
+
+legend {
+  margin-bottom: 10px;
+  font-size: 14px; }
+
+button {
+  padding: 0 10px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+label {
+  font-size: 20px;
+  line-height: 30px; }
+
+/*
+$nomVariable: rgba(0, 0, 0, 0);
+*/
+.pointerEventsNone {
+  pointer-events: none; }
+
+/*
+$nomVariable: rgba(0, 0, 0, 0);
+*/
+.description {
+  font-size: 15px; }
+
+.programme {
+  padding: 25px 40px 25px 40px;
+  max-width: 100%; }
+  .programme button {
+    margin: 10px 0; }
+  .programme legend {
+    margin-left: -20px; }
+  .programme fieldset label {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5); }
+  .programme #archive {
+    pointer-events: none; }
+
+.ajouterTache {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%; }
+  .ajouterTache legend {
+    width: 100%; }
+  .ajouterTache label {
+    width: 100%; }
+  .ajouterTache textarea {
+    border: 1px solid grey;
+    width: 390px;
+    height: 30px;
+    resize: none; }
+
+.aFaireList {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 60px;
+  user-select: none;
+  -moz-user-select: none; }
+  .aFaireList label {
+    padding: 0 18px 0 10px;
+    width: 100%;
+    word-wrap: break-word; }
+
+.aFaireListDrag {
+  background-color: pink; }
+
+#smsAlert {
+  color: red; }
+
+/*
+$nomVariable: rgba(0, 0, 0, 0);
+*/
+@media (max-width: 400px) {
+  .aFaireList {
+    padding: 0;
+    height: 100px; } }
+
+/*# sourceMappingURL=style.css.map */

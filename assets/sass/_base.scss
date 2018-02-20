@@ -1,0 +1,36 @@
+@import "variables";
+html
+{
+	//overscroll-behavior: contain;
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form
+{
+	border: 1px solid black;
+	padding: 25px 0 25px 40px;
+	width: 500px;
+}
+legend
+{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+button
+{
+	padding: 0 10px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+label
+{
+	font-size: 20px;
+	line-height: 30px;
+}

@@ -1,0 +1,77 @@
+@import "variables";
+
+.description
+{
+	font-size: 15px;
+}
+.programme
+{
+	padding: 25px 40px 25px 40px;
+	max-width: 100%;
+	button
+	{
+		margin: 10px 0;
+	}
+	legend
+	{
+		margin-left: -20px;
+	}
+	fieldset
+	{
+		label
+		{
+			font-size: 1em;
+			color: rgba(0, 0, 0, .5);
+		}
+	}
+	#archive
+	{
+		pointer-events: none;
+	}
+}
+.ajouterTache
+{
+	padding: 10px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	legend
+	{
+		width: 100%;
+	}
+	label
+	{
+		width: 100%;
+	}
+	textarea
+	{
+		border: 1px solid grey;
+		width: 390px;
+		height: 30px;
+		resize: none;
+	}
+}
+.aFaireList
+{
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+	border: 1px solid rgba(0, 0, 0, .5);
+	height: 60px;
+	user-select: none;
+		-moz-user-select: none;
+	label
+	{
+		padding: 0 18px 0 10px;
+		width: 100%;
+		word-wrap: break-word;
+	}
+}
+.aFaireListDrag
+{
+	background-color: pink;
+}
+#smsAlert
+{
+	color: red;
+}
