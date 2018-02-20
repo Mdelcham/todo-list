@@ -2,7 +2,7 @@
 
 ## Le Collègue
 
-* [Christophe](https://github.com/vanmaerckechri)
+* [Maxime](https://github.com/Mdelcham)
 
 ## Les Consignes
 
