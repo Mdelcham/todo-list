@@ -96,7 +96,7 @@ function init()
 			let elementNext = elementDrag.nextElementSibling;
 
 			//deplacer l'élément séléctionné dans le DOM (vers le haut).
-			if (event.clientY + document.documentElement.scrollTop < elementDragPosY && elementPrevious || event.touches != undefined && event.touches[0].clientY + window.pageYOffset < elementDragPosY && elementPrevious)
+			if (event.clientY + window.pageYOffset < elementDragPosY && elementPrevious || event.touches != undefined && event.touches[0].clientY + window.pageYOffset < elementDragPosY && elementPrevious)
 			{
 				elementPrevious.before(elementDrag);
 				//scroll auto pdt le drag.
@@ -110,7 +110,7 @@ function init()
 				}
 			}
 			//deplacer l'élément séléctionné dans le DOM (vers le bas).
-			if (event.clientY + document.documentElement.scrollTop > elementDragPosY + elementDragHeight && elementNext || event.touches != undefined && event.touches[0].clientY + window.pageYOffset > elementDragPosY + elementDragHeight && elementNext)
+			if (event.clientY + window.pageYOffset > elementDragPosY + elementDragHeight && elementNext || event.touches != undefined && event.touches[0].clientY + window.pageYOffset > elementDragPosY + elementDragHeight && elementNext)
 			{
 				elementNext.after(elementDrag);
 				//scroll auto pdt le drag.
